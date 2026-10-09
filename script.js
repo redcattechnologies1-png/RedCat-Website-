@@ -1,5 +1,5 @@
 /* ============================================================
-   RED CAT PRODUCT PVT LTD — INTERACTIVE SCRIPTS
+   REDCAT TECHNOLOGIES PRODUCT PRIVATE LIMITED — INTERACTIVE SCRIPTS
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
