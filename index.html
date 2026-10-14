@@ -1,0 +1,2344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="RedCat Technologies Product Private Limited — Premium innovation partner for your business. Explore our cutting-edge products and solutions, including Safe uR Fin.">
+    <title>RedCat Technologies Product Private Limited — We Care Your Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo-badge.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== PAGE LOADER ===== -->
+    <div class="loader" id="loader">
+        <div class="loader__content">
+            <div class="loader__logo">
+                <img src="images/logo.png" alt="Red Cat Technology" class="loader__logo-img">
+            </div>
+            <div class="loader__bar">
+                <div class="loader__progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" id="nav-logo" aria-label="Red Cat Technology Home">
+                <img src="images/logo.png" alt="Red Cat Technology" class="nav__logo-img">
+            </a>
+
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="#home" class="nav__link active" id="nav-home">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link" id="nav-about">About Us</a></li>
+                <li class="nav__item"><a href="products.html" class="nav__link" id="nav-products">Products</a></li>
+                <li class="nav__item"><a href="about.html#leadership" class="nav__link"
+                        id="nav-management">Management</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link nav__link--cta" id="nav-contact">Contact
+                        Us</a></li>
+            </ul>
+
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== EXPANSIVE HERO SECTION (MODERN NOTHING STYLE) ===== -->
+    <section class="hero-tech-wrapper" id="home">
+        <div class="container" style="max-width: var(--container-max); width: 100%;">
+            <div class="hero-tech-grid">
+
+                <!-- Left Column: High-Impact Typography & Live Stats -->
+                <div class="hero-tech__content animate-reveal" style="--delay: 0.1s">
+                    <div class="tech-mono-badge">
+                        <span class="ticker-dot ticker-dot--red"></span>
+                        // REDCAT ECOSYSTEM • SOFTWARE & HARDWARE
+                    </div>
+
+                    <h1 class="hero-tech__headline">
+                        Driven by Innovation,<br>
+                        <span class="gradient">Powered by Trust.</span>
+                    </h1>
+
+                    <p class="hero-tech__desc">
+                        At Red Cat, we don’t just follow innovation—we build it. From portable smart billing like
+                        <strong>RC Billing</strong> and secure finance systems like <strong>Safe uR Fin</strong> to
+                        certified premium refurbished hardware, we engineer solutions designed around you.
+                    </p>
+
+                    <!-- Futuristic 4-Stat Strip -->
+                    <div class="hero-tech__stats-strip">
+                        <div class="hero-tech__stat-item">
+                            <span class="hero-tech__stat-value">100%</span>
+                            <span class="hero-tech__stat-label">Satisfaction</span>
+                        </div>
+                        <div class="hero-tech__stat-item">
+                            <span class="hero-tech__stat-value">Cost</span>
+                            <span class="hero-tech__stat-label">Effective</span>
+                        </div>
+                        <div class="hero-tech__stat-item">
+                            <span class="hero-tech__stat-value" style="font-size: 1.8rem; line-height: 1.2;">∞</span>
+                            <span class="hero-tech__stat-label">Customer Focus</span>
+                        </div>
+                        <div class="hero-tech__stat-item">
+                            <span class="hero-tech__stat-value">24/7</span>
+                            <span class="hero-tech__stat-label">Support</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="hero-tech__actions">
+                        <a href="#products" class="btn btn--primary btn--lg" id="cta-explore"
+                            style="box-shadow: 0 10px 25px rgba(220, 0, 0, 0.3);">
+                            <span>Explore Products</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a href="#focus" class="btn btn--ghost btn--lg" id="cta-roadmap">
+                            <span>Our Focus & Goals</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M7 17l9.2-9.2M17 17V7H7" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/917003482511?text=Hello%20Red%20Cat%20Team%2C%20I%20want%20to%20know%20more%20about%20your%20products"
+                            target="_blank" class="btn btn--whatsapp" style="padding: 0.9rem 1.4rem;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51h-.57c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12.002 0C5.378 0 0 5.373 0 12c0 2.128.555 4.194 1.611 6.012L.425 24l6.126-1.606C8.307 23.447 10.128 24 12.002 24c6.623 0 12-5.373 12-12s-5.377-12-12-12zm0 21.996c-1.8 0-3.565-.483-5.111-1.398l-.367-.217-3.799.996.996-3.704-.239-.379C2.483 15.656 1.996 13.847 1.996 12c0-5.518 4.49-10.005 10.006-10.005 5.515 0 10.003 4.487 10.003 10.005s-4.486 10.004-10.003 10.004z" />
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Hardware & Software Showcase with Floating Motion Physics -->
+                <div class="hero-tech__stage animate-reveal" style="--delay: 0.25s">
+                    <div class="hero-tech__glow-orb"></div>
+
+                    <div class="hero-tech__screen-frame">
+                        <div class="hero-tech__screen-header">
+                            <div class="hero-tech__screen-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span>REDCAT_OS // SYS.VIEW</span>
+                            <span>LIVE</span>
+                        </div>
+                        <div class="hero-tech__screen-inner hero-slider" id="hero-screen-slider">
+                            <div class="hero-slider__track" id="hero-slider-track">
+                                <div class="hero-slider__slide">
+                                    <img src="images/1.png" alt="Safe uR Fin - Financial Management Solution"
+                                        loading="eager">
+                                    <div class="hero-slider__caption-bar">
+                                        <span>// SAFE UR FIN FINANCIAL LOCKER</span>
+                                        <span class="hero-slider__tag" style="background:#059669;">SOFTWARE</span>
+                                    </div>
+                                </div>
+                                <div class="hero-slider__slide">
+                                    <img src="images/2.png" alt="Smart Watches - Wearable Technology"
+                                        loading="lazy">
+                                    <div class="hero-slider__caption-bar">
+                                        <span>// AMOLED SMART WATCHES</span>
+                                        <span class="hero-slider__tag">HARDWARE</span>
+                                    </div>
+                                </div>
+                                <div class="hero-slider__slide">
+                                    <img src="images/3.png" alt="Headphones - Immersive Audio"
+                                        loading="lazy">
+                                    <div class="hero-slider__caption-bar">
+                                        <span>// HI-RES STUDIO HEADPHONES</span>
+                                        <span class="hero-slider__tag">HARDWARE</span>
+                                    </div>
+                                </div>
+                                <div class="hero-slider__slide">
+                                    <img src="images/4.png" alt="Earbuds - Clear Sound & ANC"
+                                        loading="lazy">
+                                    <div class="hero-slider__caption-bar">
+                                        <span>// WIRELESS ANC EARBUDS</span>
+                                        <span class="hero-slider__tag">HARDWARE</span>
+                                    </div>
+                                </div>
+                                <div class="hero-slider__slide">
+                                    <img src="images/5.png" alt="Refurbished Mobiles - Quality Certified"
+                                        loading="lazy">
+                                    <div class="hero-slider__caption-bar">
+                                        <span>// 42-PT QC REFURBISHED MOBILES</span>
+                                        <span class="hero-slider__tag">HARDWARE</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-slider__dots" id="hero-slider-dots">
+                                <button class="hero-slider__dot active" data-slide="0" aria-label="Slide 1: Safe uR Fin"></button>
+                                <button class="hero-slider__dot" data-slide="1" aria-label="Slide 2: Smart Watches"></button>
+                                <button class="hero-slider__dot" data-slide="2" aria-label="Slide 3: Headphones"></button>
+                                <button class="hero-slider__dot" data-slide="3" aria-label="Slide 4: Earbuds"></button>
+                                <button class="hero-slider__dot" data-slide="4" aria-label="Slide 5: Refurbished Mobiles"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Live Motion Physics Badges -->
+                    <div class="floating-live-badge flb--1">
+                        <div class="floating-live-badge__icon flb-icon--green">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                        <div class="floating-live-badge__text">
+                            <span class="floating-live-badge__title">Smart Saloon Billing</span>
+                            <span class="floating-live-badge__sub">RC Billing Management</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-live-badge flb--2">
+                        <div class="floating-live-badge__icon flb-icon--red">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                        </div>
+                        <div class="floating-live-badge__text">
+                            <span class="floating-live-badge__title">EMI Finance Locker</span>
+                            <span class="floating-live-badge__sub">Safe uR Fin Vault</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-live-badge flb--3">
+                        <div class="floating-live-badge__icon flb-icon--blue">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <polygon
+                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                </polygon>
+                            </svg>
+                        </div>
+                        <div class="floating-live-badge__text">
+                            <span class="floating-live-badge__title">42-Point QC Certified</span>
+                            <span class="floating-live-badge__sub">Hardware Tested</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-live-badge flb--4">
+                        <div class="floating-live-badge__icon flb-icon--amber">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <div class="floating-live-badge__text">
+                            <span class="floating-live-badge__title">24/7 Dedicated Support</span>
+                            <span class="floating-live-badge__sub">Always Active</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 1: OUR FOCUS (THE 4 CORE PILLARS USER DEFINED) ===== -->
+    <section class="focus-section bg-dot-matrix" id="focus">
+        <div class="container" style="max-width: var(--container-max); width: 100%;">
+            <div class="tech-section-header animate-reveal">
+                <div class="tech-mono-badge">// O U R &nbsp; F O C U S</div>
+                <h2 class="tech-section-header__title">Our Core Plan <span class="gradient-text">to Reach</span></h2>
+                <div class="section-header__line"></div>
+                <p class="tech-section-header__desc">
+                    Engineered from the ground up to ensure maximum reliability, cost accessibility, and deep alignment
+                    with our customers' growth.
+                </p>
+            </div>
+
+            <div class="focus-bento-grid">
+
+                <!-- Focus Card 1: 100% Customer Satisfaction -->
+                <div class="focus-bento-card animate-reveal" style="--delay: 0.1s">
+                    <div class="focus-bento-card__badge-row">
+                        <span class="focus-bento-card__tag">PILLAR // 01</span>
+                        <div class="ticker-dot"></div>
+                    </div>
+                    <div class="focus-bento-card__metric">100%</div>
+                    <h3 class="focus-bento-card__title">100% Customer Satisfaction</h3>
+                    <p class="focus-bento-card__desc">
+                        Our focus is on delivering reliable solutions, responsive support, and a smooth experience
+                        throughout the customer journey.
+                    </p>
+                    <div class="focus-bento-card__footer">
+                        <span>●</span> <span>ZERO-COMPROMISE EXPERIENCE</span>
+                    </div>
+                </div>
+
+                <!-- Focus Card 2: Cost-Effective Solutions -->
+                <div class="focus-bento-card animate-reveal" style="--delay: 0.2s">
+                    <div class="focus-bento-card__badge-row">
+                        <span class="focus-bento-card__tag">PILLAR // 02</span>
+                        <div class="ticker-dot"></div>
+                    </div>
+                    <div class="focus-bento-card__metric">Cost</div>
+                    <h3 class="focus-bento-card__title">Reliable & Cost-Effective Solutions</h3>
+                    <p class="focus-bento-card__desc">
+                        We aim to deliver practical, scalable, and professionally developed software solutions while
+                        keeping development accessible and cost-effective.
+                    </p>
+                    <div class="focus-bento-card__footer">
+                        <span>●</span> <span>MAXIMUM ROI & SCALABILITY</span>
+                    </div>
+                </div>
+
+                <!-- Focus Card 3: Customer-Centric Approach -->
+                <div class="focus-bento-card animate-reveal" style="--delay: 0.3s">
+                    <div class="focus-bento-card__badge-row">
+                        <span class="focus-bento-card__tag">PILLAR // 03</span>
+                        <div class="ticker-dot"></div>
+                    </div>
+                    <div class="focus-bento-card__metric">∞</div>
+                    <h3 class="focus-bento-card__title">Customer-Centric Approach</h3>
+                    <p class="focus-bento-card__desc">
+                        We listen to our customers, understand their requirements, and build solutions around their
+                        actual business needs.
+                    </p>
+                    <div class="focus-bento-card__footer">
+                        <span>●</span> <span>CONTINUOUS FEEDBACK CYCLES</span>
+                    </div>
+                </div>
+
+                <!-- Focus Card 4: 24/7 Customer Support -->
+                <div class="focus-bento-card animate-reveal" style="--delay: 0.4s">
+                    <div class="focus-bento-card__badge-row">
+                        <span class="focus-bento-card__tag">PILLAR // 04</span>
+                        <div class="ticker-dot ticker-dot--red"></div>
+                    </div>
+                    <div class="focus-bento-card__metric">24/7</div>
+                    <h3 class="focus-bento-card__title">24/7 Customer Support</h3>
+                    <p class="focus-bento-card__desc">
+                        Dedicated assistance whenever you need it, helping businesses stay connected and operational
+                        around the clock.
+                    </p>
+                    <div class="focus-bento-card__footer">
+                        <span>●</span> <span>ALWAYS-ON TECHNICAL HOTLINE</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 2: FROM MISSION TO VISION (REDCAT TECHNOLOGIES) ===== -->
+    <section class="mv-section" id="mission-vision">
+        <div class="mv-section__bg-glow"></div>
+        <div class="container" style="max-width: var(--container-max); width: 100%;">
+            <div class="tech-section-header animate-reveal" style="color: #ffffff;">
+                <div class="tech-mono-badge"
+                    style="background: rgba(255,45,45,0.15); border-color: rgba(255,45,45,0.4); color: #ff6464;">
+                    // REDCAT TECHNOLOGIES
+                </div>
+                <h2 class="tech-section-header__title" style="color: #ffffff;">From Mission <span
+                        class="gradient-text">to Vision</span></h2>
+                <div class="section-header__line"></div>
+                <p class="tech-section-header__desc" style="color: #94a3b8;">
+                    A clear path from customer needs to innovative, market-ready software and reliable hardware
+                    ecosystems.
+                </p>
+            </div>
+
+            <!-- Ascending Staircase ("Siri") with Safe Overhead Quantum Ascent Track -->
+            <div class="mv-staircase-wrapper">
+
+                <!-- Animated Trajectory Overhead Conduit Rail (100% Above Text) -->
+                <div class="mv-ball-track-container" aria-hidden="true">
+                    <!-- Staggered Continuous One-Way Stream of Quantum Photons (No reverse visible) -->
+                    <div class="mv-climbing-ball mv-ball--1">
+                        <span class="mv-ball-core"></span>
+                        <span class="mv-ball-glow"></span>
+                        <span class="mv-ball-pulse-ring"></span>
+                    </div>
+                    <div class="mv-climbing-ball mv-ball--2">
+                        <span class="mv-ball-core"></span>
+                        <span class="mv-ball-glow"></span>
+                        <span class="mv-ball-pulse-ring"></span>
+                    </div>
+                    <div class="mv-climbing-ball mv-ball--3">
+                        <span class="mv-ball-core"></span>
+                        <span class="mv-ball-glow"></span>
+                        <span class="mv-ball-pulse-ring"></span>
+                    </div>
+
+                    <!-- Summit Victory Beacon at Step 3 (Apex) -->
+                    <div class="mv-summit-victory-beacon">
+                        <span class="summit-victory-ring"></span>
+                        <span class="summit-victory-core">★</span>
+                    </div>
+                    <!-- Overhead Trajectory Guide Dashed Path (Positioned Safely in Overhead Space) -->
+                    <svg class="mv-trajectory-svg" viewBox="0 0 1000 320" preserveAspectRatio="none" fill="none">
+                        <!-- Ambient Blur Glow Path -->
+                        <path d="M 167 245 Q 333 110 500 169 Q 667 30 833 89" class="mv-trajectory-path-glow" />
+                        <!-- Animated Neon Dashed Guide Line -->
+                        <path d="M 167 245 Q 333 110 500 169 Q 667 30 833 89" stroke="rgba(255, 45, 85, 0.5)"
+                            stroke-width="2.5" stroke-dasharray="8 8" class="mv-trajectory-path" />
+                    </svg>
+                </div>
+
+                <!-- Inter-card Gap Ascent Connectors (In open gaps between cards) -->
+                <div class="mv-gap-bridge mv-gap-bridge--1to2" aria-hidden="true">
+                    <span class="bridge-arrow">▲</span>
+                    <span>ASCENT 01➔02</span>
+                </div>
+                <div class="mv-gap-bridge mv-gap-bridge--2to3" aria-hidden="true">
+                    <span class="bridge-arrow">▲</span>
+                    <span>APEX 02➔03</span>
+                </div>
+
+                <div class="mv-staircase-grid animate-reveal">
+
+                    <!-- Step 1: Base Tier (Mission) -->
+                    <div class="mv-step mv-step--1" data-step-level="1">
+                        <div class="mv-step-pedestal">
+                            <span class="mv-step-pedestal-num">🪜 STEP // 01</span>
+                            <span class="mv-dock-status mv-dock-status--1"><span class="dock-dot"></span>DOCK 01
+                                FOUNDATION</span>
+                            <span class="mv-step-pedestal-label">GROUND</span>
+                        </div>
+                        <div class="mv-card">
+                            <div class="mv-card__header-badge">
+                                <span class="mv-card__step-tag">01 // MISSION</span>
+                                <span class="step-altitude-tag">ELEVATION 01</span>
+                            </div>
+                            <h3 class="mv-card__title">Transform Ideas &amp; Requirements</h3>
+                            <p class="mv-card__headline">Build reliable, useful and cost-effective software.</p>
+                            <p class="mv-card__desc">
+                                Every great solution begins by solving real everyday challenges. We turn raw business
+                                requirements and ideas into robust, streamlined digital tools.
+                            </p>
+                        </div>
+                        <div class="mv-stair-riser-base">
+                            <div class="mv-stair-rung mv-stair-rung--active"></div>
+                            <div class="mv-stair-rung"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Mid Tier (Our Approach) -->
+                    <div class="mv-step mv-step--2" data-step-level="2">
+                        <div class="mv-step-pedestal mv-step-pedestal--mid">
+                            <span class="mv-step-pedestal-num">🪜 STEP // 02</span>
+                            <span class="mv-dock-status mv-dock-status--2"><span class="dock-dot"></span>DOCK 02
+                                EXECUTION</span>
+                            <span class="mv-step-pedestal-label">ASCENT</span>
+                        </div>
+                        <div class="mv-card mv-card--mid">
+                            <div class="mv-card__header-badge">
+                                <span class="mv-card__step-tag"
+                                    style="background: rgba(59, 130, 246, 0.15); color: #60a5fa; border-color: rgba(59, 130, 246, 0.35);">02
+                                    // OUR APPROACH</span>
+                                <span class="step-altitude-tag"
+                                    style="color: #60a5fa; border-color: rgba(59, 130, 246, 0.35); background: rgba(59, 130, 246, 0.1);">ELEVATION
+                                    02</span>
+                            </div>
+                            <h3 class="mv-card__title">Understand → Build → Improve</h3>
+                            <p class="mv-card__headline" style="color: #93c5fd;">Customer requirements + innovation +
+                                technology + support.</p>
+                            <p class="mv-card__desc">
+                                A continuous feedback formula. We develop software and hardware in lockstep with user
+                                needs, deploying active iterations and reliable support.
+                            </p>
+                        </div>
+                        <div class="mv-stair-riser-base">
+                            <div class="mv-stair-rung mv-stair-rung--mid"></div>
+                            <div class="mv-stair-rung mv-stair-rung--mid"></div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Summit Tier (Vision) -->
+                    <div class="mv-step mv-step--3" data-step-level="3">
+                        <div class="mv-step-pedestal mv-step-pedestal--top">
+                            <span class="mv-step-pedestal-num">🪜 STEP // 03</span>
+                            <span class="mv-dock-status mv-dock-status--3"><span class="dock-dot"></span>DOCK 03 APEX
+                                SUMMIT</span>
+                            <span class="mv-step-pedestal-label">APEX</span>
+                        </div>
+                        <div class="mv-card mv-card--summit">
+                            <div class="mv-summit-crown-badge">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>PEAK ACHIEVEMENT</span>
+                            </div>
+                            <div class="mv-card__header-badge">
+                                <span class="mv-card__step-tag"
+                                    style="background: rgba(16, 185, 129, 0.15); color: #34d399; border-color: rgba(16, 185, 129, 0.35);">03
+                                    // VISION</span>
+                                <span class="step-altitude-tag"
+                                    style="color: #34d399; border-color: rgba(16, 185, 129, 0.35); background: rgba(16, 185, 129, 0.1);">SUMMIT
+                                    APEX</span>
+                            </div>
+                            <h3 class="mv-card__title">Grow with Our Customers</h3>
+                            <p class="mv-card__headline" style="color: #6ee7b7;">Become a trusted software &amp;
+                                technology partner.</p>
+                            <p class="mv-card__desc">
+                                Expanding reach and scale together. We become the trusted backbone for enterprises
+                                seeking enduring digital advantage and operational freedom.
+                            </p>
+                        </div>
+                        <div class="mv-stair-riser-base">
+                            <div class="mv-stair-rung mv-stair-rung--top"></div>
+                            <div class="mv-stair-rung mv-stair-rung--top"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION 3: OUR GOALS (01-05 ROADMAP WHERE WE ARE GOING) ===== -->
+    <section class="roadmap-section bg-dot-matrix" id="roadmap">
+        <div class="container" style="max-width: var(--container-max); width: 100%;">
+            <div class="tech-section-header animate-reveal">
+                <div class="tech-mono-badge">// OUR GOALS</div>
+                <h2 class="tech-section-header__title">Where We <span class="gradient-text">Are Going</span></h2>
+                <div class="section-header__line"></div>
+                <p class="tech-section-header__desc">
+                    A practical growth roadmap for building products, serving customers, and expanding the market.
+                </p>
+            </div>
+
+            <!-- 5 Roadmap Milestone Cards -->
+            <div class="roadmap-grid">
+
+                <div class="roadmap-card animate-reveal" style="--delay: 0.1s">
+                    <div class="roadmap-card__num">01</div>
+                    <h3 class="roadmap-card__title">Understand</h3>
+                    <p class="roadmap-card__desc">
+                        Deeply understand customer problems, business needs and market gaps to establish real-world
+                        utility.
+                    </p>
+                </div>
+
+                <div class="roadmap-card animate-reveal" style="--delay: 0.2s">
+                    <div class="roadmap-card__num">02</div>
+                    <h3 class="roadmap-card__title">Build</h3>
+                    <p class="roadmap-card__desc">
+                        Develop customized, reliable and user-focused software solutions and certified hardware
+                        architectures.
+                    </p>
+                </div>
+
+                <div class="roadmap-card animate-reveal" style="--delay: 0.3s">
+                    <div class="roadmap-card__num">03</div>
+                    <h3 class="roadmap-card__title">Launch</h3>
+                    <p class="roadmap-card__desc">
+                        Turn strong ideas into practical, market-ready digital products with effortless deployment.
+                    </p>
+                </div>
+
+                <div class="roadmap-card animate-reveal" style="--delay: 0.4s">
+                    <div class="roadmap-card__num">04</div>
+                    <h3 class="roadmap-card__title">Scale</h3>
+                    <p class="roadmap-card__desc">
+                        Expand products, capabilities and customer reach through continuous innovation and support.
+                    </p>
+                </div>
+
+                <div class="roadmap-card animate-reveal" style="--delay: 0.5s">
+                    <div class="roadmap-card__num">05</div>
+                    <h3 class="roadmap-card__title">Lead</h3>
+                    <p class="roadmap-card__desc">
+                        Become a trusted technology partner known for useful innovation and dependable solutions.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Long-Term Growth Trajectory Banner -->
+            <div class="roadmap-banner animate-reveal" style="--delay: 0.6s">
+                <div class="roadmap-banner__text">
+                    <span class="roadmap-banner__title">// LONG-TERM GROWTH</span>
+                    <span class="roadmap-banner__desc">Continuously expanding technological frontiers, accessible
+                        pricing, and sustainable digital products across India.</span>
+                </div>
+                <div class="roadmap-banner__arrows">
+                    <span>↗</span><span>↗</span><span>↗</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== SECTION 4: STRATEGIC GOALS (FOUR PILLARS OF GROWTH) ===== -->
+    <section class="pillars-section" id="pillars">
+        <div class="container" style="max-width: var(--container-max); width: 100%;">
+            <div class="tech-section-header animate-reveal">
+                <div class="tech-mono-badge">// STRATEGIC GOALS</div>
+                <h2 class="tech-section-header__title">Four Pillars <span class="gradient-text">of Growth</span></h2>
+                <div class="section-header__line"></div>
+                <p class="tech-section-header__desc">
+                    Our goals are built around product innovation, customer value, technology and sustainable growth.
+                </p>
+            </div>
+
+            <div class="pillars-grid">
+
+                <!-- Pillar 1: Product Innovation -->
+                <div class="pillar-card animate-reveal" style="--delay: 0.1s">
+                    <div class="pillar-card__icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="pillar-card__content">
+                        <span class="pillar-card__tag">Pillar 01</span>
+                        <h3 class="pillar-card__title">PRODUCT INNOVATION</h3>
+                        <p class="pillar-card__desc">
+                            Create multiple software products based on real market needs and new business ideas that
+                            redefine efficiency.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Pillar 2: Customer Value -->
+                <div class="pillar-card animate-reveal" style="--delay: 0.2s">
+                    <div class="pillar-card__icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="pillar-card__content">
+                        <span class="pillar-card__tag">Pillar 02</span>
+                        <h3 class="pillar-card__title">CUSTOMER VALUE</h3>
+                        <p class="pillar-card__desc">
+                            Deliver solutions that are useful, easy to adopt, reliable and responsive to customer
+                            requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Pillar 3: Technology -->
+                <div class="pillar-card animate-reveal" style="--delay: 0.3s">
+                    <div class="pillar-card__icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <div class="pillar-card__content">
+                        <span class="pillar-card__tag">Pillar 03</span>
+                        <h3 class="pillar-card__title">TECHNOLOGY</h3>
+                        <p class="pillar-card__desc">
+                            Strengthen our software team, development capabilities, security, scalability and product
+                            quality.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Pillar 4: Market Expansion -->
+                <div class="pillar-card animate-reveal" style="--delay: 0.4s">
+                    <div class="pillar-card__icon-box">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="pillar-card__content">
+                        <span class="pillar-card__tag">Pillar 04</span>
+                        <h3 class="pillar-card__title">MARKET EXPANSION</h3>
+                        <p class="pillar-card__desc">
+                            Build cost-effective solutions that can reach more businesses, industries and markets across
+                            the subcontinent.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ===== CO-DEVELOPMENT ENGINE & DOORBELL KNOCK (BUILD WITH REDCAT) ===== -->
+        <section class="codev-section bg-cyber-net" id="codev-engine">
+            <div class="container" style="max-width: var(--container-max); width: 100%;">
+
+                <div class="tech-net-coordinates">
+                    <span>[ CO-DEV STUDIO // LIVE PIPELINE ]</span>
+                    <span>STATUS: ACCEPTING NEW SOFTWARE PROJECTS</span>
+                    <span>PAN-INDIA HOTLINE: +91-7003482511</span>
+                </div>
+
+                <div class="tech-section-header animate-reveal" style="--delay: 0s">
+                    <div class="tech-mono-badge">// SIDE-BY-SIDE DEVELOPMENT</div>
+                    <h2 class="tech-section-header__title">Build Custom Software <span
+                            class="gradient-text">Side-By-Side With Us</span></h2>
+                    <div class="section-header__line"></div>
+                    <p class="tech-section-header__desc">
+                        Whether you need a custom POS billing application, financial cloud security, or enterprise
+                        workflow software — RedCat engineers work hand-in-hand with your business from concept to live
+                        deployment.
+                    </p>
+                </div>
+
+                <div class="codev-grid">
+                    <!-- Left: 4 Collaborative Steps -->
+                    <div class="codev-steps-container">
+
+                        <div class="codev-step-card active" data-step="1">
+                            <div class="codev-step-num">01</div>
+                            <div class="codev-step-content">
+                                <h4>Knock &amp; Discovery Session</h4>
+                                <p>We deeply map your operational gaps, store workflows, and exact feature requirements
+                                    through active consultation.</p>
+                            </div>
+                        </div>
+
+                        <div class="codev-step-card" data-step="2">
+                            <div class="codev-step-num">02</div>
+                            <div class="codev-step-content">
+                                <h4>Rapid UI/UX &amp; Architecture</h4>
+                                <p>Interactive prototypes developed with modern, clean UI, instant WhatsApp integration,
+                                    and scalable database schemas.</p>
+                            </div>
+                        </div>
+
+                        <div class="codev-step-card" data-step="3">
+                            <div class="codev-step-num">03</div>
+                            <div class="codev-step-content">
+                                <h4>Rigorous 42-Point QC &amp; Testing</h4>
+                                <p>End-to-end load testing, hardware printer compatibility tests, data encryption
+                                    checks, and offline data sync assurance.</p>
+                            </div>
+                        </div>
+
+                        <div class="codev-step-card" data-step="4">
+                            <div class="codev-step-num">04</div>
+                            <div class="codev-step-content">
+                                <h4>Launch &amp; 24/7 Dedicated Support</h4>
+                                <p>Seamless rollout at your counters, staff training, continuous weekly updates, and
+                                    always-on 24/7 technical assistance.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right: 24/7 Live Developer Coding Workstation & Doorbell Console -->
+                    <div class="dev-code-console-wrapper animate-reveal" style="--delay: 0.2s">
+
+                        <!-- 24/7 Live Developer Coding Workstation -->
+                        <div class="dev-workstation-card">
+
+                            <!-- High-Tech HUD Header -->
+                            <div class="dev-hud-header">
+                                <div class="dev-hud-status-badge">
+                                    <span class="dev-live-pulse-dot"></span>
+                                    <span>24/7 LIVE CODING ENGINE</span>
+                                </div>
+                                <div class="dev-hud-engineer-tag">
+                                    👨‍💻 <span>Lead Architect: <strong>Alex R.</strong></span>
+                                </div>
+                                <div class="dev-hud-metrics">
+                                    <span>⚡ BUILD: ACTIVE</span>
+                                </div>
+                            </div>
+
+                            <!-- Visual Stage with Developer at Workstation -->
+                            <div class="dev-live-stage">
+                                <img src="images/developer-coding.jpg"
+                                    alt="RedCat Lead Developer Live Coding Custom Software" class="dev-live-img"
+                                    loading="lazy">
+
+                                <!-- Laser Scanline over Dual Monitors -->
+                                <div class="dev-screen-scanline" aria-hidden="true"></div>
+
+                                <!-- Top Ambient Stage Badge -->
+                                <div class="dev-ambient-badge">
+                                    <span>💻</span>
+                                    <span>REDCAT TECH LAB // SPRINT #14</span>
+                                </div>
+
+                                <!-- Floating Hologram Code Particles around Developer -->
+                                <div class="dev-code-particles" aria-hidden="true">
+                                    <span class="code-particle code-particle--1">&lt;React.Native /&gt;</span>
+                                    <span class="code-particle code-particle--2">{ CloudPOS: 200 }</span>
+                                    <span class="code-particle code-particle--3">const RedCatEngine</span>
+                                    <span class="code-particle code-particle--4">⚡ 42-QC Passed</span>
+                                </div>
+
+                                <!-- Knock Alert Reactive Overlay -->
+                                <div class="dev-knock-overlay" id="dev-knock-overlay">
+                                    <div class="dev-knock-overlay__icon">🔔</div>
+                                    <div class="dev-knock-overlay__title">CLIENT KNOCK DETECTED!</div>
+                                    <div class="dev-knock-overlay__desc">Lead Architect connecting with you on WhatsApp
+                                        right now...</div>
+                                </div>
+                            </div>
+
+                            <!-- Real-Time Compilation Terminal Ticker -->
+                            <div class="dev-live-ticker">
+                                <div class="dev-ticker-text">
+                                    <span class="dev-ticker-arrow">&gt;</span>
+                                    <span id="dev-terminal-msg">[DEV_STATUS]: Active on IDE • Ready for Client
+                                        Co-Development Request</span>
+                                    <span class="dev-ticker-cursor"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Ultra-Premium Doorbell Knock Console -->
+                        <div class="bell-knock-card">
+                            <div class="bell-knock-badge">// DOORBELL KNOCK ACTIVATION</div>
+                            <h3 class="bell-knock-title">Hamare Saath Software Banwana Hai?</h3>
+                            <p class="bell-knock-desc">
+                                Neeche diye gaye bell ko <strong>Knock (Click)</strong> karein! Developer workstation ko
+                                instant alert jayega aur direct WhatsApp discussion khul jayega.
+                            </p>
+
+                            <div class="bell-trigger-wrapper">
+                                <div class="bell-trigger-ripple"></div>
+                                <button type="button" class="bell-trigger-btn" id="bell-knock-btn"
+                                    aria-label="Knock Doorbell for Custom Software">
+                                    <span class="bell-trigger-icon">🔔</span>
+                                    <span class="bell-trigger-label">KNOCK BELL</span>
+                                </button>
+                            </div>
+
+                            <div class="bell-knock-hint">
+                                <span>●</span> CLICK TO RING THE REDCAT BELL &amp; CONNECT ON WHATSAPP
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Notification Toast Message -->
+        <div class="bell-toast-msg" id="bell-toast" role="status" aria-live="polite">
+            <span style="font-size: 1.8rem;">🔔</span>
+            <div>
+                <strong style="color: #ff4d4d; display: block; font-size: 0.95rem;">Doorbell Knocked
+                    Successfully!</strong>
+                <span style="font-size: 0.85rem; color: #cbd5e1;">Opening RedCat Developer Hotline on WhatsApp...</span>
+            </div>
+        </div>
+
+        <!-- ===== PRODUCTS SECTION (SOFTWARE & HARDWARE 2 SECTIONS) ===== -->
+        <section class="section section--alt" id="products">
+            <div class="container" style="max-width: var(--container-max); width: 100%;">
+                <!-- Section Header -->
+                <div class="tech-section-header animate-reveal" style="--delay: 0s">
+                    <div class="tech-mono-badge">// PRODUCT ECOSYSTEM</div>
+                    <h2 class="tech-section-header__title">Software & <span class="gradient-text">Hardware
+                            Solutions</span></h2>
+                    <div class="section-header__line"></div>
+                    <p class="tech-section-header__desc">
+                        Explore our two primary divisions: intelligent digital software suites and premium certified
+                        hardware.
+                    </p>
+                </div>
+
+                <!-- Product Category Tabs (Software vs Hardware) -->
+                <div class="product-category-nav ultra-category-dock animate-reveal" style="--delay: 0.1s">
+                    <button type="button" class="category-tab-btn active" data-filter="all">
+                        <span class="tab-icon-pod tab-icon-pod--all">
+                            <svg viewBox="0 0 20 20" fill="none" class="tab-icon-svg">
+                                <rect x="3" y="3" width="5.5" height="5.5" rx="1.2" fill="currentColor" />
+                                <rect x="11.5" y="3" width="5.5" height="5.5" rx="1.2" fill="currentColor"
+                                    fill-opacity="0.6" />
+                                <rect x="3" y="11.5" width="5.5" height="5.5" rx="1.2" fill="currentColor"
+                                    fill-opacity="0.6" />
+                                <rect x="11.5" y="11.5" width="5.5" height="5.5" rx="1.2" fill="currentColor" />
+                            </svg>
+                        </span>
+                        <span class="tab-btn-title">All Products</span>
+                        <span class="category-tab-btn__count">7</span>
+                    </button>
+                    <button type="button" class="category-tab-btn" data-filter="software">
+                        <span class="tab-icon-pod tab-icon-pod--software">
+                            <svg viewBox="0 0 20 20" fill="none" class="tab-icon-svg">
+                                <rect x="2.5" y="3.5" width="15" height="10" rx="1.8" stroke="currentColor"
+                                    stroke-width="1.5" />
+                                <path d="M6.5 7.5L5 9L6.5 10.5M13.5 7.5L15 9L13.5 10.5M11 6.5L9 11.5"
+                                    stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+                                <path d="M6 16.5H14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                            </svg>
+                        </span>
+                        <span class="tab-btn-title">Software Solutions</span>
+                        <span class="category-tab-btn__count">2</span>
+                    </button>
+                    <button type="button" class="category-tab-btn" data-filter="hardware">
+                        <span class="tab-icon-pod tab-icon-pod--hardware">
+                            <svg viewBox="0 0 20 20" fill="none" class="tab-icon-svg">
+                                <rect x="3" y="3.5" width="8.5" height="13" rx="1.5" stroke="currentColor"
+                                    stroke-width="1.5" />
+                                <rect x="13.5" y="7.5" width="4" height="9" rx="1" stroke="currentColor"
+                                    stroke-width="1.3" />
+                                <circle cx="7.2" cy="13.5" r="0.75" fill="currentColor" />
+                            </svg>
+                        </span>
+                        <span class="tab-btn-title">Hardware Ecosystem</span>
+                        <span class="category-tab-btn__count">5</span>
+                    </button>
+                </div>
+
+                <!-- Homepage Product Carousel -->
+                <div class="homepage-products-carousel animate-reveal" style="--delay: 0.2s" id="hp-carousel">
+                    <div class="hp-carousel__track" id="hp-carousel-track">
+
+                        <!-- Slide: RC Billing (SOFTWARE) -->
+                        <div class="hp-carousel__slide carousel__slide--logo" data-category="software">
+                            <a href="products.html#rc-billing-card"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--software">SOFTWARE</span>
+                                <div class="circular-logo-shield">
+                                    <div class="circular-logo-shield__glow"></div>
+                                    <div class="circular-logo-shield__ring"></div>
+                                    <img src="images/rc-billing-logo.png" alt="RC Billing"
+                                        class="circular-logo-shield__img">
+                                </div>
+                                <h3 class="hp-carousel__title" style="margin-top: 14px;">RC Billing</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">Smart Mobile POS &amp;
+                                    Digital Invoicing</span>
+                            </a>
+                        </div>
+
+                        <!-- Slide: Safe uR Fin (SOFTWARE) -->
+                        <div class="hp-carousel__slide carousel__slide--logo" data-category="software">
+                            <a href="products.html#safe-ur-fin-card"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--software">SOFTWARE</span>
+                                <div class="circular-logo-shield">
+                                    <div class="circular-logo-shield__glow"></div>
+                                    <div class="circular-logo-shield__ring"></div>
+                                    <img src="images/safe-ur-fin-logo.png" alt="Safe uR Fin"
+                                        class="circular-logo-shield__img">
+                                </div>
+                                <h3 class="hp-carousel__title" style="margin-top: 14px;">Safe uR Fin</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">256-Bit Encrypted
+                                    Financial Locker</span>
+                            </a>
+                        </div>
+
+                        <!-- Slide 1: Mobiles (HARDWARE) -->
+                        <div class="hp-carousel__slide" data-category="hardware">
+                            <a href="products.html"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--hardware">HARDWARE</span>
+                                <img src="images/refurbished-mobiles.png" alt="Refurbished Mobiles"
+                                    class="hp-carousel__img">
+                                <h3 class="hp-carousel__title">Refurbished Mobiles</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">42-Pt Tested Premium
+                                    Smartphones</span>
+                            </a>
+                        </div>
+
+                        <!-- Slide 2: Earbuds (HARDWARE) -->
+                        <div class="hp-carousel__slide" data-category="hardware">
+                            <a href="products.html"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--hardware">HARDWARE</span>
+                                <img src="images/earbuds.png" alt="Wireless Earbuds" class="hp-carousel__img">
+                                <h3 class="hp-carousel__title">Earbuds</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">True Wireless Stereo
+                                    Audio</span>
+                            </a>
+                        </div>
+
+                        <!-- Slide 3: Headphones (HARDWARE) -->
+                        <div class="hp-carousel__slide" data-category="hardware">
+                            <a href="products.html"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--hardware">HARDWARE</span>
+                                <img src="images/headphones.png" alt="Headphones" class="hp-carousel__img">
+                                <h3 class="hp-carousel__title">Headphones</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">Hi-Res Studio Sound &
+                                    ANC</span>
+                            </a>
+                        </div>
+
+                        <!-- Slide 4: Speakers (HARDWARE) -->
+                        <div class="hp-carousel__slide" data-category="hardware">
+                            <a href="products.html"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--hardware">HARDWARE</span>
+                                <img src="images/speakers.png" alt="Bluetooth Speakers" class="hp-carousel__img">
+                                <h3 class="hp-carousel__title">Speakers</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">Portable High-Bass
+                                    Audio</span>
+                            </a>
+                        </div>
+
+                        <!-- Slide 5: Smart Watches (HARDWARE) -->
+                        <div class="hp-carousel__slide" data-category="hardware">
+                            <a href="products.html"
+                                style="text-decoration:none; color:inherit; display:flex; flex-direction:column; align-items:center;">
+                                <span class="category-pill-tag category-pill-tag--hardware">HARDWARE</span>
+                                <img src="images/smart-watches.png" alt="Smart Watches" class="hp-carousel__img">
+                                <h3 class="hp-carousel__title">Smart Watches</h3>
+                                <span style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">AMOLED Display &
+                                    Health Sensors</span>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Nav -->
+                    <button class="hp-carousel__btn hp-carousel__btn--prev" id="hp-prev" aria-label="Previous">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="hp-carousel__btn hp-carousel__btn--next" id="hp-next" aria-label="Next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- CTA -->
+                <div class="products-cta animate-reveal" style="--delay: 0.3s">
+                    <a href="products.html" class="btn btn--primary btn--lg" id="cta-view-all">
+                        <span>Explore Complete Product Catalog</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ===== PREMIUM ANIMATED TESTIMONIALS SECTION ===== -->
+        <section class="section section--alt testimonials-section" id="testimonials">
+            <!-- Ambient Glowing Orbs Background -->
+            <div class="testimonials__ambient-glow">
+                <div class="glow-orb glow-orb--1"></div>
+                <div class="glow-orb glow-orb--2"></div>
+                <div class="glow-orb glow-orb--3"></div>
+            </div>
+
+            <div class="container testimonials__header-container">
+                <!-- Header with Trust Badge -->
+                <div class="section-header animate-reveal" style="--delay: 0s">
+                    <div class="testimonials__badge">
+                        <span class="testimonials__badge-pulse"></span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                        </svg>
+                        <span>15,000+ Verified Customers Nationwide</span>
+                    </div>
+                    <h2 class="section-header__title">What Our Clients<br><span class="gradient-text">Are Saying</span>
+                    </h2>
+                    <div class="section-header__line"></div>
+                    <p class="section-header__desc testimonials__subtitle">
+                        Real stories from tech leaders, businesses, and everyday creators who rely on Red Cat for
+                        lab-tested, warranty-backed refurbished devices.
+                    </p>
+                </div>
+
+                <!-- Social Proof Bar & Trust Badges -->
+                <div class="testimonials-trust-bar animate-reveal" style="--delay: 0.1s">
+                    <div class="trust-summary">
+                        <div class="trust-summary__avatars">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+                                alt="Customer" class="trust-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+                                alt="Customer" class="trust-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+                                alt="Customer" class="trust-avatar">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80"
+                                alt="Customer" class="trust-avatar">
+                            <span class="trust-avatar-more">+15k</span>
+                        </div>
+                        <div class="trust-summary__rating">
+                            <div class="stars-row">
+                                <span class="star-icon">★</span><span class="star-icon">★</span><span
+                                    class="star-icon">★</span><span class="star-icon">★</span><span
+                                    class="star-icon">★</span>
+                                <span class="rating-number">4.9 / 5.0</span>
+                            </div>
+                            <p class="rating-caption">Google & Trustpilot Certified • 2,850+ Verified Reviews</p>
+                        </div>
+                    </div>
+
+                    <!-- Category Filters -->
+                    <div class="testimonials-filters" id="testimonial-filters">
+                        <button class="filter-pill active" data-category="all">
+                            <span class="filter-pill__icon">✨</span> All Stories
+                        </button>
+                        <button class="filter-pill" data-category="iphones">
+                            <span class="filter-pill__icon">📱</span> iPhones & Macs
+                        </button>
+                        <button class="filter-pill" data-category="corporate">
+                            <span class="filter-pill__icon">🏢</span> Corporate & Bulk
+                        </button>
+                        <button class="filter-pill" data-category="audio">
+                            <span class="filter-pill__icon">🎧</span> Audio & Gear
+                        </button>
+                        <button class="filter-pill" data-category="warranty">
+                            <span class="filter-pill__icon">🛡️</span> Warranty & Service
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Controls & Live Feed Bar -->
+                <div class="testimonials-controls-bar animate-reveal" style="--delay: 0.15s">
+                    <div class="testimonials-live-indicator">
+                        <span class="live-dot"></span>
+                        <span class="live-text">Live Customer Showcase • Auto-scroll enabled</span>
+                    </div>
+                    <div class="testimonials-action-btns">
+                        <button class="action-btn" id="marquee-toggle" title="Pause / Play scrolling"
+                            aria-label="Pause or play testimonials animation">
+                            <svg class="icon-pause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="6" y="4" width="4" height="16" />
+                                <rect x="14" y="4" width="4" height="16" />
+                            </svg>
+                            <svg class="icon-play" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+                                style="display:none;">
+                                <polygon points="5 3 19 12 5 21 5 3" />
+                            </svg>
+                            <span class="btn-text">Pause</span>
+                        </button>
+                        <button class="action-btn" id="marquee-prev" title="Scroll left" aria-label="Previous reviews">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <polyline points="15 18 9 12 15 6" />
+                            </svg>
+                        </button>
+                        <button class="action-btn" id="marquee-next" title="Scroll right" aria-label="Next reviews">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5">
+                                <polyline points="9 18 15 12 9 6" />
+                            </svg>
+                        </button>
+                        <button class="btn btn--sm btn--primary action-btn--write" id="btn-open-review-modal">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                            </svg>
+                            <span>Share Your Review</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FULL-SCREEN PANORAMIC MARQUEE SHOWCASE -->
+            <div class="testimonials-marquee-fullscreen" id="testimonials-marquee-container">
+                <!-- Fade masks on edges for smooth infinite loop -->
+                <div class="marquee-edge-fade marquee-edge-fade--left"></div>
+                <div class="marquee-edge-fade marquee-edge-fade--right"></div>
+
+                <!-- ROW 1: Scrolling Left -->
+                <div class="testimonials-track-wrapper">
+                    <div class="testimonials-track testimonials-track--left" id="track-row-1">
+                        <!-- Card 1: Aniket Sharma -->
+                        <div class="testimonial-card-premium" data-category="iphones">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80"
+                                            alt="Aniket Sharma" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');this.innerText='AS';">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Aniket Sharma</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Tech Entrepreneur • Bengaluru</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ iPhone 14 Pro Max</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 2 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Saved ₹48,000 & It Feels Brand New!"</h4>
+                            <p class="testimonial-card__body">
+                                The quality of refurbished iPhones from Red Cat is unbelievable. 98% battery health,
+                                zero micro-scratches, and arrived sealed in premium protective packaging. The 42-point
+                                test report gives total confidence!
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ 42-Point QC Certified</span>
+                                <button class="helpful-btn" data-votes="42" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">42</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Priya Mukerjee -->
+                        <div class="testimonial-card-premium" data-category="audio warranty">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80"
+                                            alt="Priya Mukerjee" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Priya Mukerjee</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Creative Director • Mumbai</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ AirPods Pro 2nd Gen</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 4 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Resolved In 30 Mins — Exceptional Support!"</h4>
+                            <p class="testimonial-card__body">
+                                Exceptional after-sales support! I had a minor pairing question with my noise-cancelling
+                                earbuds, and their desk resolved it within 30 minutes over a polite call. Very
+                                professional and dependable.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Fast Helpdesk Resolution</span>
+                                <button class="helpful-btn" data-votes="38" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">38</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: Rahat Sen -->
+                        <div class="testimonial-card-premium" data-category="corporate">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80"
+                                            alt="Rahat Sen" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Rahat Sen</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">IT Head, Global Corp • Gurgaon</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ 35x MacBook Pro M2 Fleet</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Corporate Contract • 1 week ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Our Go-To Partner for Corporate Tech"</h4>
+                            <p class="testimonial-card__body">
+                                Red Cat has become our sole partner for all corporate device requirements across 3
+                                branches. Transparent GST invoicing, immaculate machines, and zero downtime. Honest
+                                pricing every time.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Bulk Corporate Fleet</span>
+                                <button class="helpful-btn" data-votes="64" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">64</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 4: Sneha Sengupta -->
+                        <div class="testimonial-card-premium" data-category="iphones">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80"
+                                            alt="Sneha Sengupta" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Sneha Sengupta</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Lead Product Designer • Kolkata</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ MacBook Air M2 16GB</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 5 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Buttery Smooth for Heavy Design Work"</h4>
+                            <p class="testimonial-card__body">
+                                Switching to Red Cat saved my agency over 40% on hardware upgrades! Liquid Retina
+                                display is pristine, battery easily powers all-day Figma sprints, and the 1-year
+                                warranty gives complete peace of mind.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ 1-Year Comprehensive Warranty</span>
+                                <button class="helpful-btn" data-votes="29" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">29</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- REPEAT CLONES FOR SEAMLESS 60FPS INFINITE LOOP -->
+                        <!-- Clone 1 -->
+                        <div class="testimonial-card-premium" data-category="iphones" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80"
+                                            alt="Aniket Sharma" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Aniket Sharma</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Tech Entrepreneur • Bengaluru</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ iPhone 14 Pro Max</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 2 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Saved ₹48,000 & It Feels Brand New!"</h4>
+                            <p class="testimonial-card__body">
+                                The quality of refurbished iPhones from Red Cat is unbelievable. 98% battery health,
+                                zero micro-scratches, and arrived sealed in premium protective packaging. The 42-point
+                                test report gives total confidence!
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ 42-Point QC Certified</span>
+                                <button class="helpful-btn" data-votes="42" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">42</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Clone 2 -->
+                        <div class="testimonial-card-premium" data-category="audio warranty" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80"
+                                            alt="Priya Mukerjee" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Priya Mukerjee</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Creative Director • Mumbai</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ AirPods Pro 2nd Gen</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 4 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Resolved In 30 Mins — Exceptional Support!"</h4>
+                            <p class="testimonial-card__body">
+                                Exceptional after-sales support! I had a minor pairing question with my noise-cancelling
+                                earbuds, and their desk resolved it within 30 minutes over a polite call. Very
+                                professional and dependable.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Fast Helpdesk Resolution</span>
+                                <button class="helpful-btn" data-votes="38" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">38</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Clone 3 -->
+                        <div class="testimonial-card-premium" data-category="corporate" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80"
+                                            alt="Rahat Sen" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Rahat Sen</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">IT Head, Global Corp • Gurgaon</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ 35x MacBook Pro M2 Fleet</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Corporate Contract • 1 week ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Our Go-To Partner for Corporate Tech"</h4>
+                            <p class="testimonial-card__body">
+                                Red Cat has become our sole partner for all corporate device requirements across 3
+                                branches. Transparent GST invoicing, immaculate machines, and zero downtime. Honest
+                                pricing every time.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Bulk Corporate Fleet</span>
+                                <button class="helpful-btn" data-votes="64" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">64</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Clone 4 -->
+                        <div class="testimonial-card-premium" data-category="iphones" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80"
+                                            alt="Sneha Sengupta" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Sneha Sengupta</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Lead Product Designer • Kolkata</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ MacBook Air M2 16GB</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 5 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Buttery Smooth for Heavy Design Work"</h4>
+                            <p class="testimonial-card__body">
+                                Switching to Red Cat saved my agency over 40% on hardware upgrades! Liquid Retina
+                                display is pristine, battery easily powers all-day Figma sprints, and the 1-year
+                                warranty gives complete peace of mind.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ 1-Year Comprehensive Warranty</span>
+                                <button class="helpful-btn" data-votes="29" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">29</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROW 2: Scrolling Right (Diverse selection) -->
+                <div class="testimonials-track-wrapper">
+                    <div class="testimonials-track testimonials-track--right" id="track-row-2">
+                        <!-- Card 5: Vikramaditya Roy -->
+                        <div class="testimonial-card-premium" data-category="corporate">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=120&auto=format&fit=crop&q=80"
+                                            alt="Vikramaditya Roy" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Vikramaditya Roy</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Fintech Founder • Hyderabad</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ Safe-Ur-Fin Fleet (50 Units)</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Enterprise Client • 3 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Built-in EMI Security & Zero Hassle"</h4>
+                            <p class="testimonial-card__body">
+                                Ordered bulk devices integrated with Safe-Ur-Fin mobile lock. Arrived pre-configured,
+                                tested, and ready to deploy to our field loan executives immediately. Unmatched
+                                engineering and hardware synergy!
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Enterprise Safe-Ur-Fin Lock</span>
+                                <button class="helpful-btn" data-votes="51" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">51</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 6: Aditi Nair -->
+                        <div class="testimonial-card-premium" data-category="audio">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&auto=format&fit=crop&q=80"
+                                            alt="Aditi Nair" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Aditi Nair</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Podcast Producer • Delhi NCR</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ AirPods Max (Space Gray)</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 6 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Studio Grade Acoustic Isolation!"</h4>
+                            <p class="testimonial-card__body">
+                                I was initially hesitant about refurbished luxury headphones, but Red Cat delivered pure
+                                gold. Not a scratch on the aluminum cups, cushions feel fresh, battery life exceeds 20
+                                hrs. Dispatched in 12 hours flat!
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Express 24H Dispatch</span>
+                                <button class="helpful-btn" data-votes="33" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">33</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 7: Arjun Patel -->
+                        <div class="testimonial-card-premium" data-category="warranty">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&auto=format&fit=crop&q=80"
+                                            alt="Arjun Patel" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Arjun Patel</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Retail Tech Owner • Ahmedabad</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ iPad Pro 12.9" M2</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 1 week ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Doorstep Replacement In 48 Hours"</h4>
+                            <p class="testimonial-card__body">
+                                Their warranty is 100% genuine. After 2 months of heavy point-of-sale usage, my iPad
+                                port showed a minor glitch. Raised an online ticket and had a replacement unit picked up
+                                and delivered within 48 hours. Zero hassles.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ 48H Doorstep Replacement</span>
+                                <button class="helpful-btn" data-votes="47" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">47</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Card 8: Devika Roy Chowdhury -->
+                        <div class="testimonial-card-premium" data-category="iphones">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80"
+                                            alt="Devika Roy Chowdhury" class="card-author__avatar"
+                                            onerror="this.src='';this.classList.add('avatar-fallback');">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Devika Roy Chowdhury</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Chartered Accountant • Pune</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ iPhone 13 128GB (Midnight)</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 3 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Honest Grading & Authentic Diagnostics"</h4>
+                            <p class="testimonial-card__body">
+                                The transparency is what won me over! Every device includes a hardware check card
+                                showing battery health, TrueTone function, and camera sensor checks. Why buy full price
+                                when Red Cat offers this level of perfection?
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Lab Hardware Check Card</span>
+                                <button class="helpful-btn" data-votes="35" aria-label="Mark helpful">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">35</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- CLONES FOR ROW 2 LOOP -->
+                        <!-- Clone 5 -->
+                        <div class="testimonial-card-premium" data-category="corporate" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=120&auto=format&fit=crop&q=80"
+                                            alt="Vikramaditya Roy" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Vikramaditya Roy</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Fintech Founder • Hyderabad</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ Safe-Ur-Fin Fleet (50 Units)</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Enterprise Client • 3 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Built-in EMI Security & Zero Hassle"</h4>
+                            <p class="testimonial-card__body">
+                                Ordered bulk devices integrated with Safe-Ur-Fin mobile lock. Arrived pre-configured,
+                                tested, and ready to deploy to our field loan executives immediately. Unmatched
+                                engineering and hardware synergy!
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Enterprise Safe-Ur-Fin Lock</span>
+                                <button class="helpful-btn" data-votes="51" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">51</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Clone 6 -->
+                        <div class="testimonial-card-premium" data-category="audio" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&auto=format&fit=crop&q=80"
+                                            alt="Aditi Nair" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Aditi Nair</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Podcast Producer • Delhi NCR</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ AirPods Max (Space Gray)</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 6 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Studio Grade Acoustic Isolation!"</h4>
+                            <p class="testimonial-card__body">
+                                I was initially hesitant about refurbished luxury headphones, but Red Cat delivered pure
+                                gold. Not a scratch on the aluminum cups, cushions feel fresh, battery life exceeds 20
+                                hrs. Dispatched in 12 hours flat!
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Express 24H Dispatch</span>
+                                <button class="helpful-btn" data-votes="33" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">33</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Clone 7 -->
+                        <div class="testimonial-card-premium" data-category="warranty" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&auto=format&fit=crop&q=80"
+                                            alt="Arjun Patel" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Arjun Patel</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Retail Tech Owner • Ahmedabad</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ iPad Pro 12.9" M2</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 1 week ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Doorstep Replacement In 48 Hours"</h4>
+                            <p class="testimonial-card__body">
+                                Their warranty is 100% genuine. After 2 months of heavy point-of-sale usage, my iPad
+                                port showed a minor glitch. Raised an online ticket and had a replacement unit picked up
+                                and delivered within 48 hours. Zero hassles.
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ 48H Doorstep Replacement</span>
+                                <button class="helpful-btn" data-votes="47" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">47</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Clone 8 -->
+                        <div class="testimonial-card-premium" data-category="iphones" aria-hidden="true">
+                            <div class="card-glow-sheen"></div>
+                            <div class="testimonial-card__header">
+                                <div class="card-author">
+                                    <div class="card-author__avatar-wrap">
+                                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80"
+                                            alt="Devika Roy Chowdhury" class="card-author__avatar">
+                                        <span class="avatar-verified-pulse"></span>
+                                    </div>
+                                    <div class="card-author__details">
+                                        <div class="card-author__name-row">
+                                            <h4 class="card-author__name">Devika Roy Chowdhury</h4>
+                                            <span class="verified-tag">
+                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                                                </svg> Verified
+                                            </span>
+                                        </div>
+                                        <p class="card-author__role">Chartered Accountant • Pune</p>
+                                    </div>
+                                </div>
+                                <span class="product-chip">🏷️ iPhone 13 128GB (Midnight)</span>
+                            </div>
+                            <div class="testimonial-card__rating">
+                                <div class="stars">★★★★★</div>
+                                <span class="rating-badge">5.0 / 5.0</span>
+                                <span class="review-date">Verified Purchase • 3 days ago</span>
+                            </div>
+                            <h4 class="testimonial-card__headline">"Honest Grading & Authentic Diagnostics"</h4>
+                            <p class="testimonial-card__body">
+                                The transparency is what won me over! Every device includes a hardware check card
+                                showing battery health, TrueTone function, and camera sensor checks. Why buy full price
+                                when Red Cat offers this level of perfection?
+                            </p>
+                            <div class="testimonial-card__footer">
+                                <span class="qc-tag">✓ Lab Hardware Check Card</span>
+                                <button class="helpful-btn" data-votes="35" tabindex="-1">
+                                    <span class="helpful-heart">❤️</span>
+                                    <span class="helpful-count">35</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FULL-WIDTH TRUST METRIC MATRIX -->
+            <div class="container testimonials__metrics-container animate-reveal" style="--delay: 0.2s">
+                <div class="testimonials-metrics-grid">
+                    <div class="metric-glass-card">
+                        <div class="metric-glass-card__icon-wrap">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                        </div>
+                        <div class="metric-glass-card__content">
+                            <span class="metric-number">99.4%</span>
+                            <h4 class="metric-title">Satisfaction Rate</h4>
+                            <p class="metric-desc">Over 15k devices delivered with zero customer return rate.</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-glass-card">
+                        <div class="metric-glass-card__icon-wrap">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                            </svg>
+                        </div>
+                        <div class="metric-glass-card__content">
+                            <span class="metric-number">42-Point</span>
+                            <h4 class="metric-title">Diagnostic Protocol</h4>
+                            <p class="metric-desc">Every sensor, chip, battery & display certified by engineers.</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-glass-card">
+                        <div class="metric-glass-card__icon-wrap">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <div class="metric-glass-card__content">
+                            <span class="metric-number">365 Days</span>
+                            <h4 class="metric-title">Doorstep Warranty</h4>
+                            <p class="metric-desc">Free pickup, genuine replacement & priority turnarounds.</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-glass-card">
+                        <div class="metric-glass-card__icon-wrap">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                        </div>
+                        <div class="metric-glass-card__content">
+                            <span class="metric-number">&lt; 2 Hours</span>
+                            <h4 class="metric-title">Rapid Support SLA</h4>
+                            <p class="metric-desc">Direct engineer access via WhatsApp & phone hotline.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTERACTIVE WRITE A REVIEW MODAL -->
+            <div class="review-modal-overlay" id="review-modal" aria-hidden="true" role="dialog" aria-modal="true">
+                <div class="review-modal-card">
+                    <button class="review-modal-close" id="btn-close-review-modal"
+                        aria-label="Close modal">&times;</button>
+                    <div class="review-modal-header">
+                        <span class="section__tag">Client Feedback</span>
+                        <h3>Share Your Verified Experience</h3>
+                        <p>Help other tech enthusiasts and companies make confident choices.</p>
+                    </div>
+                    <form class="review-modal-form" id="review-form">
+                        <div class="rating-picker-wrap">
+                            <label>Your Overall Rating:</label>
+                            <div class="star-rating-picker" id="star-picker">
+                                <span class="star-pick active" data-val="1">★</span>
+                                <span class="star-pick active" data-val="2">★</span>
+                                <span class="star-pick active" data-val="3">★</span>
+                                <span class="star-pick active" data-val="4">★</span>
+                                <span class="star-pick active" data-val="5">★</span>
+                                <span class="star-val-text" id="star-val-display">5.0 / 5.0 (Excellent)</span>
+                            </div>
+                        </div>
+                        <div class="form-row form-row--2">
+                            <div class="form-field">
+                                <label for="review-author-name">Full Name *</label>
+                                <input type="text" id="review-author-name" required placeholder="e.g. Rahul Verma">
+                            </div>
+                            <div class="form-field">
+                                <label for="review-author-city">Your City / Company *</label>
+                                <input type="text" id="review-author-city" required
+                                    placeholder="e.g. Mumbai • Freelancer">
+                            </div>
+                        </div>
+                        <div class="form-row form-row--2">
+                            <div class="form-field">
+                                <label for="review-product">Product / Service Purchased *</label>
+                                <input type="text" id="review-product" required placeholder="e.g. iPhone 14 Pro Max">
+                            </div>
+                            <div class="form-field">
+                                <label for="review-category">Category *</label>
+                                <select id="review-category">
+                                    <option value="iphones">iPhones & MacBooks</option>
+                                    <option value="corporate">Corporate & Bulk Solution</option>
+                                    <option value="audio">Audio & Smart Wearables</option>
+                                    <option value="warranty">Warranty & After-Sales</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="review-headline">Review Headline *</label>
+                            <input type="text" id="review-headline" required
+                                placeholder="e.g. Exceeded all my expectations!">
+                        </div>
+                        <div class="form-field">
+                            <label for="review-comment">Your Detailed Review *</label>
+                            <textarea id="review-comment" rows="3" required
+                                placeholder="Tell us about the device condition, delivery speed, or support experience..."></textarea>
+                        </div>
+                        <div class="modal-form-actions">
+                            <button type="button" class="btn btn--ghost" id="btn-cancel-review">Cancel</button>
+                            <button type="submit" class="btn btn--primary">
+                                <span>Submit Verified Review</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Toast Notification for review submission -->
+            <div class="testimonial-toast" id="testimonial-toast">
+                <div class="toast-icon">✓</div>
+                <div class="toast-text">
+                    <strong>Thank you!</strong>
+                    <span>Your review has been submitted for verification.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ SECTION ===== -->
+        <section class="section" id="faq">
+            <div class="container">
+                <div class="faq-wrapper animate-reveal" style="--delay: 0s">
+                    <div class="faq__header">
+                        <span class="section__tag">Got Questions?</span>
+                        <h2 class="section-header__title">Frequently Asked<br><span
+                                class="gradient-text">Questions</span></h2>
+                        <p class="section-header__desc">Everything you need to know about our products and services.
+                            Can't find the answer? Reach out to us.</p>
+                    </div>
+
+                    <div class="faq__list">
+                        <div class="faq__item active">
+                            <div class="faq__question">
+                                <h3>What is your 42-point quality check?</h3>
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div class="faq__answer">
+                                <p>Our quality check includes a comprehensive inspection of hardware and software. We
+                                    check battery health (must be 85%+), screen calibration, button responsiveness,
+                                    speaker quality, and network connectivity among other parameters.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <div class="faq__question">
+                                <h3>How do I claim my warranty?</h3>
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div class="faq__answer">
+                                <p>Claiming warranty is simple. Log in to your account, select your order, and click
+                                    'Claim Warranty'. Our team will coordinate the pickup of your device within 24
+                                    hours.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <div class="faq__question">
+                                <h3>Do you offer international shipping?</h3>
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div class="faq__answer">
+                                <p>Currently, we ship across India and select regions in South Asia. We are working on
+                                    expanding our global footprint very soon. Stay tuned for updates!</p>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <div class="faq__question">
+                                <h3>What is your refurbishment process?</h3>
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div class="faq__answer">
+                                <p>Every device goes through deep cleaning, internal component verification, part
+                                    replacement (if necessary with original parts), and rigorous testing before being
+                                    certified for sale.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEWSLETTER SECTION ===== -->
+        <section class="section newsletter">
+            <div class="newsletter__bg"></div>
+            <div class="container">
+                <div class="newsletter__content animate-reveal">
+                    <h2 class="newsletter__title">Ready to Innovation?</h2>
+                    <p class="newsletter__desc">Join our community and get exclusive early access to our premium
+                        launches and the latest tech insights.</p>
+
+                    <form class="newsletter__form">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn--primary">Subscribe Now</button>
+                    </form>
+
+                    <p class="newsletter__guarantee">We care your privacy. No spam, just pure innovation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="section contact" id="contact">
+            <!-- Floating background blobs -->
+            <div class="contact__blob contact__blob--1"></div>
+            <div class="contact__blob contact__blob--2"></div>
+
+            <div class="container">
+                <div class="contact__wrapper">
+                    <!-- Left Side: Contact Info -->
+                    <div class="contact__info animate-reveal" style="--delay: 0s">
+                        <span class="section__tag">Contact Us</span>
+                        <h2 class="contact__title">Let’s Grow Together</h2>
+                        <p class="contact__subtitle">We care your business and help you scale. Reach out to us for any
+                            queries or collaborations.</p>
+
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="contact__label">Phone</h4>
+                                    <p class="contact__text"><a href="tel:+917003482511"
+                                            style="color: inherit; text-decoration: none;">+91-7003482511</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="contact__label">Email</h4>
+                                    <p class="contact__text"><a href="mailto:sales@rtppl.in"
+                                            style="color: inherit; text-decoration: none;">sales@rtppl.in</a></p>
+                                    <p class="contact__text"><a href="mailto:redcattechnologyindia@gmail.com"
+                                            style="color: inherit; text-decoration: none;">redcattechnologyindia@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact__item">
+                                <div class="contact__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="contact__label">Address</h4>
+                                    <p class="contact__text">Floor No.: 2nd, Building No./Flat No.: 45261, Building: 23
+                                        Mondalganthi, Road/Street: 12, Block No: G-12, Kol-700052</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Contact Form -->
+                    <div class="contact__form-container animate-reveal" style="--delay: 0.2s">
+                        <form class="contact__form" id="contact-form">
+                            <div class="form__group">
+                                <label for="name" class="form__label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form__input"
+                                    placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="email" class="form__label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form__input"
+                                    placeholder="Enter your email" required>
+                            </div>
+
+                            <div class="form__group">
+                                <label for="message" class="form__label">Message</label>
+                                <textarea id="message" name="message" class="form__input form__textarea"
+                                    placeholder="How can we help you?" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn--primary btn--full" id="contact-submit">
+                                <span>Send Message</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== FOOTER SECTION ===== -->
+        <footer class="footer" id="footer">
+            <div class="footer__overlay"></div>
+            <div class="container">
+                <div class="footer__main animate-reveal">
+                    <!-- Branding -->
+                    <div class="footer__brand">
+                        <a href="index.html" class="footer__logo" aria-label="Red Cat Technology Home">
+                            <img src="images/logo-white.png" alt="Red Cat Technology" class="footer__logo-img">
+                        </a>
+                        <p class="footer__tagline">You are the centre of innovation</p>
+
+                        <div class="footer__socials">
+                            <a href="https://www.facebook.com/profile.php?id=61594427063868" target="_blank"
+                                rel="noopener noreferrer" class="footer__social-link footer__social-link--facebook"
+                                aria-label="Facebook">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://www.youtube.com/@RedcatTechnologies" target="_blank"
+                                rel="noopener noreferrer" class="footer__social-link footer__social-link--youtube"
+                                aria-label="YouTube">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                                    </path>
+                                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor">
+                                    </polygon>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/company/redcat-technologies-product-pvt-ltd/posts/"
+                                target="_blank" rel="noopener noreferrer"
+                                class="footer__social-link footer__social-link--linkedin" aria-label="LinkedIn">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer__nav">
+                        <h4 class="footer__nav-title">Quick Links</h4>
+                        <ul class="footer__nav-list">
+                            <li><a href="#home" class="footer__nav-link">Home</a></li>
+                            <li><a href="about.html" class="footer__nav-link">About Us</a></li>
+                            <li><a href="products.html" class="footer__nav-link">Products</a></li>
+                            <li><a href="about.html#leadership" class="footer__nav-link" id="footer-management-link">Management</a></li>
+                            <li><a href="#contact" class="footer__nav-link">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Connect with Us -->
+                    <div class="footer__contact">
+                        <h4 class="footer__contact-title">Connect with Us</h4>
+                        <div class="footer__contact-list">
+                            <div class="footer__contact-item">
+                                <div class="footer__contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="footer__contact-text">
+                                    <span class="footer__contact-label">Address</span>
+                                    <span class="footer__contact-value">Floor No.: 2nd, Building No./Flat No.: 45261,
+                                        Building: 23 Mondalganthi, Road/Street: 12, Block No: G-12, Kol-700052</span>
+                                </div>
+                            </div>
+                            <div class="footer__contact-item">
+                                <div class="footer__contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="footer__contact-text">
+                                    <span class="footer__contact-label">Phone</span>
+                                    <a href="tel:+917003482511" class="footer__contact-value footer__nav-link"
+                                        style="padding:0; display:inline-block;">+91-7003482511</a>
+                                </div>
+                            </div>
+                            <div class="footer__contact-item">
+                                <div class="footer__contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="footer__contact-text">
+                                    <span class="footer__contact-label">Email</span>
+                                    <a href="mailto:sales@rtppl.in" class="footer__nav-link"
+                                        style="padding:0; font-size: 0.95rem; display:block;">sales@rtppl.in</a>
+                                    <a href="mailto:redcattechnologyindia@gmail.com" class="footer__nav-link"
+                                        style="padding:0; font-size: 0.88rem; display:block; word-break: break-all;">redcattechnologyindia@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <div class="footer__divider"></div>
+                    <p class="footer__copyright">@2026 RedCat Technologies Product Private Limited. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
